@@ -11,7 +11,6 @@ This library will be release for **C** / **C++**.
 - Convert date to string date, alphabet.
 - Detecting the day of the date.
 
-
 ## Supported Calendar Systems
 
 | Name | Type | 	Group |
