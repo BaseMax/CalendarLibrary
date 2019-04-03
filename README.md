@@ -11,6 +11,16 @@ This library will be release for **C** / **C++**.
 - Convert date to string date, alphabet.
 - Detecting the day of the date.
 
+## Abilities
+
+
+#### Example of the future:
+
+```
+Date _date=Date(Date_Gregorian, 2019, 3, 4);
+print _date.format("Date is %y/%m/%d.\n");
+```
+
 ## Supported Calendar Systems
 
 | Name | Type | 	Group |
