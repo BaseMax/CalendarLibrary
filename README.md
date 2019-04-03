@@ -12,7 +12,10 @@ The powerful library for display and convert calendar and handle the date units.
 
 ## Supported Calendar Systems
 
-View the full list at [here](https://en.wikipedia.org/wiki/List_of_calendars).
+| Name | Type | 	Group |
+| ------------ | ------------ | ------------ |
+| Jalali calendar | Solar | Iranian |
+
 
 ## Initial Start
 
