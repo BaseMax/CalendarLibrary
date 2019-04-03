@@ -14,8 +14,9 @@ The powerful library for display and convert calendar and handle the date units.
 
 | Name | Type | 	Group |
 | ------------ | ------------ | ------------ |
+| Gregorian calendar | | |
 | Jalali calendar | Solar | Iranian |
-
+| Lunar calendar | | |
 
 ## Initial Start
 
