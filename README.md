@@ -13,6 +13,9 @@ This library will be release for **C** / **C++**.
 
 ## Abilities
 
+- string display(void)
+- string format(string format)
+- date convert(dateType target)
 
 #### Example of the future:
 
