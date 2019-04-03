@@ -13,16 +13,42 @@ This library will be release for **C** / **C++**.
 
 ## Abilities
 
-- string display(void)
+- string display(dateDisplayType type)
 - string format(string format)
 - date convert(dateType target)
 
 #### Example of the future:
 
 ```
-Date _date=Date(Date_Gregorian, 2019, 3, 4);
+date _date=Date(Date_Gregorian, 2019, 3, 4);
 print _date.format("Date is %y/%m/%d.\n");
 ```
+
+## Predefined constants
+
+#### Date Type
+
+| Constant      | Description                        |
+| ------------- | ---------------------------------- |
+| DATE_GREGORIAN| Gregorian calendar                 |
+| DATE_JALALI   | Jalali calendar                    |
+| DATE_LUNAR    | Lunar calendar                     |
+
+#### Date Display Type
+
+| Constant      | Description                        | Sample Output                        |
+| ------------- | ---------------------------------- | ------------------------------------ |
+| DATE_ATOM     | Atom                               | 2013-04-12T15:52:01+00:00            |
+| DATE_COOKIE   | HTTP Cookies                       | Friday, 12-Apr-13 15:52:01 UTC       |
+| DATE_RSS      | RSS                                | Fri, 12 Aug 2013 15:52:01 +0000      |
+| DATE_ISO8601  | ISO-8601                           | 2013-04-12T15:52:01+0000             |
+| DATE_W3C      | World Wide Web Consortium          | 2013-04-12T15:52:01+00:00            |
+| DATE_RFC822   | RFC 822                            | Fri, 12 Apr 13 15:52:01 +0000        |
+| DATE_RFC850   | RFC 850                            | Friday, 12-Apr-13 15:52:01 UTC       |
+| DATE_RFC1036  | RFC 1036                           | Fri, 12 Apr 13 15:52:01 +0000        |
+| DATE_RFC1123  | RFC 1123                           | Fri, 12 Apr 2013 15:52:01 +0000      |
+| DATE_RFC2822  | RFC 2822                           | Fri, 12 Apr 2013 15:52:01 +0000      |
+| DATE_RFC3339  | Same as DATE_ATOM                  | 2013-04-12T15:52:01+00:00            |
 
 ## Supported Calendar Systems
 
