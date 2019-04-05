@@ -114,4 +114,3 @@ The developers are invited to develop this libraries in other languages such as 
 ## License
 
 CalendarLibrary is licensed under the [GNU General Public License](https://github.com/BaseMax/CalendarLibrary/blob/master/LICENSE).
-
