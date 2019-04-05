@@ -19,9 +19,9 @@ This library will be release for **C** / **C++**.
 
 #### Example of the future:
 
-```
+```c
 date _date=Date(Date_Gregorian, 2019, 3, 4);
-print _date.format("Date is %y/%m/%d.\n");
+print( _date.format("Date is %y/%m/%d.\n") );
 ```
 
 ## Predefined constants
